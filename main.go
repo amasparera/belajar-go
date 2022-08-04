@@ -1,7 +1,9 @@
 package main
 
-import "belajar-go/dasar-go"
+import (
+	"belajar-go/pakege"
+)
 
 func main() {
-	dasar.CetakInterface()
+	pakege.CetasOs()
 }
