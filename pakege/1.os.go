@@ -14,6 +14,7 @@ func CetasOs() {
 	fmt.Println(dat)
 	fmt.Println(hosnam)
 	fmt.Println(pssword)
+
 }
 
 // terminal

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"belajar-go/pakege"
+	dasar "belajar-go/dasar-go"
 )
 
 func main() {
-	pakege.CetasOs()
+	dasar.MerubahKeMemoriBaru()
 }

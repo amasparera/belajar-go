@@ -38,4 +38,21 @@ func FuncParameter() {
 	fmt.Println(Adress4)
 }
 
-// pointer struct fuction
+// pointer tipe pointer ke memori berbeda
+var Andres5 Adress = Adress{}
+var Adress6 = &Andres5
+
+func MerubahSatu() {
+	Adress6 = &Adress{"mediun", "ok"}
+
+	fmt.Println(Andres5)
+	fmt.Println(Adress6)
+}
+
+// merubah pointer kebaru semua yg mengacu
+func MerubahKeMemoriBaru() {
+	*Adress6 = Adress{"kota", "kita"}
+
+	fmt.Println(Andres5)
+	fmt.Println(Adress6)
+}
