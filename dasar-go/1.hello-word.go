@@ -1,8 +1,9 @@
 package dasar
 
-import "fmt"
+// import "fmt"
 
-func HelloWord() {
+func HelloWord() string {
 	// melakukan print satu lane
-	fmt.Println("hello word")
+	// fmt.Println("hello word")
+	return "Hallo amas"
 }
